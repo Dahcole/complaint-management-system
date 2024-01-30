@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "": "classes/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-openssl": "*"
+    }
+}

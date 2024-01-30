@@ -1,0 +1,14 @@
+[14-Jul-2022 14:04:52 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subcatid' in 'field list' in /home/kelseywe/public_html/complaint_system/admin/classes/Database.php:69
+Stack trace:
+#0 /home/kelseywe/public_html/complaint_system/admin/classes/Database.php(69): PDOStatement->execute()
+#1 /home/kelseywe/public_html/complaint_system/admin/classes/Database.php(91): Database->execute()
+#2 /home/kelseywe/public_html/complaint_system/admin/complaint-subcategories.php(83): Database->fetchColumn()
+#3 {main}
+  thrown in /home/kelseywe/public_html/complaint_system/admin/classes/Database.php on line 69
+[14-Jul-2022 14:05:05 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subcatid' in 'field list' in /home/kelseywe/public_html/complaint_system/admin/classes/Database.php:69
+Stack trace:
+#0 /home/kelseywe/public_html/complaint_system/admin/classes/Database.php(69): PDOStatement->execute()
+#1 /home/kelseywe/public_html/complaint_system/admin/classes/Database.php(91): Database->execute()
+#2 /home/kelseywe/public_html/complaint_system/admin/complaint-subcategories.php(83): Database->fetchColumn()
+#3 {main}
+  thrown in /home/kelseywe/public_html/complaint_system/admin/classes/Database.php on line 69
